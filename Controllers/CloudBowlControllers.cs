@@ -24,7 +24,9 @@ namespace cloudbowl.samples.dotnet.Controllers
             {
                 string[] commands = new string[] { "F", "R", "L", "T" };
                 int i = new Random().Next(4);
-
+                
+	            // TODO add your implementation here to replace the random response
+                
                 return commands[i];
             }
             catch (Exception)
